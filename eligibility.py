@@ -32,8 +32,7 @@ def check_eligibility(events_data, student_gpa, student_region, student_skills, 
             "region": row["region"],
             "mode": row["mode"],
             "skills": row["skills"],
-            "min_gpa": row["min_gpa"],
-            "link": row["link"]
+            "min_gpa": row["min_gpa"]
         })
 
     return eligible
